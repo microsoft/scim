@@ -1,5 +1,11 @@
 # Scope
 
-[Include a detailed description of this Working Group’s Scope.  This Scope is important is it establishes the bounds of each contributor's and licensee's patent commitment. For guidance on drafting an appropriate Scope, you may find [ISO's guidance (see page 5)](https://www.iso.org/files/live/sites/isoorg/files/developing_standards/docs/en/how-to-write-standards.pdf "ISO How To Write Standards Guide") helpful.]
+The Supply Chain Integrity Model (SCIM) specifies an end-to-end system for validating arbitrary artifacts in terms of supply chains whose integrity has been proven.
 
-Any changes of Scope are not retroactive. 
+SCIM is applicable to both hardware (objects in the physical world) and software (digital) artifacts.
+
+SCIM defines minimum standards around the preparation, storage, distribution, consumption, validation and evaluation of arbitrary evidence about artifacts that are critical to maintaining the integrity of supply chains.
+
+SCIM does not define how artifacts are produced or distributed, nor the methods by which evidence about artifacts is produced prior to preparation for inclusion in SCIM.
+
+Any changes to this scope are not retroactive. 
