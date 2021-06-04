@@ -286,11 +286,6 @@ The diagram below shows standards that comprise the Supply Chain Integrity Model
 - Rich, graph-aware query of evidence and policy.
 - Notifications of new transactions in the data store (to support continuous verification)
 
-<p align="center">
-  <img src="images/spec/Existing Specifications.svg" width="600" align="middle"><br/>
-  Figure 5.2 -- Existing Specifications related to the Supply Chain Integrity Model
-</p>
-
 <!-- ## Annex A
 
 (informative)
