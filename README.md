@@ -43,3 +43,8 @@ The SCIM-Store specification defines a rich, graph-aware storage API that allows
 - Phase 3
   - SCIM specifications ratified by international standards bodies.
   - Widespread adoption of end-to-end model across globally distributed supply chains.
+
+## Contributing
+
+- Meetings: The SCIM community holds meetings each Monday at 8 AM Pacific. Email kayw@microsoft.com to be added to the meeting invitation.
+- Meeting Agenda and Minutes: https://docs.google.com/document/d/1vf-EliXByhg5HZfgVbTqZhfaJFCmvMdQuZ4tC-Eq6wg/edit?usp=sharing
