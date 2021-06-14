@@ -180,7 +180,7 @@ Each use case includes a description followed by a summary of the Attester and R
 
 #### 4.1.1&nbsp;&nbsp;&nbsp;Self-Attestation
 
-In the most basic use case for supply chain integrity, the Supplier serves a dual role as Supplier and Attester, providing evidence about the artifact. At a minimum, evidence includes identities for both the Supplier and Artifact. Evidence may include additional information such as the following:
+In the most basic use case for supply chain integrity, a Supplier serves a dual role as Supplier and Attester, providing Evidence about an Artifact. At a minimum, Evidence includes globally unique identities for both the Supplier and the Artifact. Evidence may include additional information such as the following:
 
 - information allowing the Artifact to be verified (e.g. a cryptographic hash for software)
 - information about subcomponents of the Artifact
