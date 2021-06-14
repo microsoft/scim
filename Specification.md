@@ -157,7 +157,7 @@ A data store that enables the storage, query, subscription and retrieval of cert
 
 ### 4&nbsp;&nbsp;&nbsp;Workflows
 
-The Supply Chain Integrity Model (SCIM) describes a set of specifications enabling one or more entities ("Attesters") to produce believable information ("Evidence") about an item in the supply chain ("Artifact"). Attesters submit Evidence to a web service ("Evidence Store") where it is certified and made available to receiving entities ("User Agents"). The Evidence enables other entities ("User Agents") to verify whether the Artifact conforms to management policies ("Policy").
+The Supply Chain Integrity Model (SCIM) describes a set of specifications enabling one or more entities ("Attesters") to produce believable information ("Evidence") about an item in the supply chain ("Artifact"). Attesters submit Evidence to a web service ("Store") where it is certified and made available to receiving entities ("User Agents"). The Evidence enables other entities ("User Agents") to verify whether the Artifact conforms to management policies ("Policy").
 
 The diagram depicts the flow of artifacts between entities in the Supply Chain Integrity Workflow.
 
@@ -253,9 +253,9 @@ Policy Managers often require verification that Artifacts are not tampered with 
 
 The diagram below depicts a workflow in which software is received from a Supplier, verified and installed by an Installer, and monitored for runtime tampering by a Runtime Monitor. 
 
-Initially, the Installer obtains the Artifact and Evidence and uses the evidence, in this case a cryptographic hash of the Artifact, to verify Artifact integrity prior to installation. Post installation, the Installer submits new Evidence, including a cryptographic hash for each installed file, to a local Evidence Store.
+Initially, the Installer obtains the Artifact and Evidence and uses the evidence, in this case a cryptographic hash of the Artifact, to verify Artifact integrity prior to installation. Post installation, the Installer submits new Evidence, including a cryptographic hash for each installed file, to a local Store.
 
-Thereafter, a Runtime Monitor such as a background process or application loader continuously verifies installed files against the Evidence (cryptographic hashes) in the local Evidence Store.
+Thereafter, a Runtime Monitor such as a background process or application loader continuously verifies installed files against the Evidence (cryptographic hashes) in the local Store.
 
 <p align="center">
   <img src="images/spec/Workflow - Runtime Integrity Verification.svg" width="650" align="middle"><br/>
@@ -275,7 +275,7 @@ The diagram below shows standards that comprise the Supply Chain Integrity Model
 
 **SCIM-Policy**. The SCIM-Policy standard defines a data model and exchange format for providing policy for use in evaluating artifacts for a specified.use.
 
-**SCIM-Store**. The SCIM-Store standard provides a definition for a service that allows publishing and subscribing to Evidence and Policy. The Data Store provides backing storage for both Evidence and Policy. The Data Store service definition provides a uniform application programming model that allows:
+**SCIM-Store**. The SCIM-Store standard provides a definition for a service that allows publishing and subscribing to Evidence and Policy. The SCIM-Store provides backing storage for both Evidence and Policy. The SCIM-Store service definition provides a uniform application programming model that allows:
 - Distributed identity management.
 - Verification and certification of published evidence and policy.
 - Transparent, immutable, non-repudiable logging of transactions.
