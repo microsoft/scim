@@ -33,7 +33,7 @@ The SCIM-Store specification defines a rich, graph-aware storage API that allows
 ## Roadmap
 
 - Phase 1
-  - Organizations use existing tools and specifications to begin implementing Section 4 requirements, including SBOMs.
+  - Organizations use existing tools and specifications to begin implementing [US Cyber EO](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) Section 4 requirements, including SBOMs.
   - SCIM community organized for the development of end-to-end standards.
 
 - Phase 2
@@ -48,3 +48,4 @@ The SCIM-Store specification defines a rich, graph-aware storage API that allows
 
 - Meetings: The SCIM community holds meetings each Monday at 8 AM Pacific. Email kayw@microsoft.com to be added to the meeting invitation.
 - Meeting Agenda and Minutes: https://docs.google.com/document/d/1vf-EliXByhg5HZfgVbTqZhfaJFCmvMdQuZ4tC-Eq6wg/edit?usp=sharing
+- Meeting Videos: https://www.youtube.com/playlist?list=PL6EgWS5xrcg4J3vYdv9SL8MyZMp14DxBv
