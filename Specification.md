@@ -190,7 +190,7 @@ In the most basic use case for supply chain integrity, the Supplier serves a dua
 - information about defects identified in the Artifact
 - references to related Artifacts or Evidence
 
-A Policy Manager provides Policy. The User Agent obtains the Artifact and Evidence, and uses Policy provided by the Policy Manager to verify the suitability of the Artifact for the intended use.
+A Supplier creates an Artifact (a) and Evidence (b). A Policy Manager provides Policy (c). A User Agent (d) obtains the Artifact and Evidence, and uses Policy to verify the suitability of the Artifact for the intended use.
 
 <p align="center">
   <img src="images/spec/Workflow - Self-Attestation.svg" width="500" align="middle"><br/>
