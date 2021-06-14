@@ -123,7 +123,7 @@ Believable information about an Artifact. At a minimum, Evidence includes suppli
 
 **Policy**
 
-A set of rules that informs how a User uses Evidence to verify the suitability of an Artifact for an intended use.
+A set of rules that informs how a User Agent uses Evidence to verify the suitability of an Artifact for an intended use.
 
 #### 3.4
 
@@ -145,25 +145,19 @@ An entity that provides Policy for verifying Artifacts using Evidence.
 
 #### 3.7
 
-**User**
+**User Agent**
 
 An entity that uses Evidence to verify Artifacts against Policy.
 
 #### 3.8
 
-**Evidence Store**
+**Store**
 
-A data store that enables the query, subscription and retrieval of certified Evidence by authorized Users.
-
-#### 3.9
-
-**Policy Store**
-
-A data store that enables the query, subscription and retrieval of certified Policy by authorized Users.
+A data store that enables the storage, query, subscription and retrieval of certified Evidence and Policy by authorized Users.
 
 ### 4&nbsp;&nbsp;&nbsp;Workflows
 
-The Supply Chain Integrity Model (SCIM) describes a set of specifications enabling one or more entities ("Attesters") to produce believable information ("Evidence") about an item in the supply chain ("Artifact"). Attesters submit Evidence to a web service ("Evidence Store") where it is certified and made available to receiving entities ("Users"). The Evidence enables other entities ("Users") to verify whether the Artifact conforms to management policies ("Policy").
+The Supply Chain Integrity Model (SCIM) describes a set of specifications enabling one or more entities ("Attesters") to produce believable information ("Evidence") about an item in the supply chain ("Artifact"). Attesters submit Evidence to a web service ("Evidence Store") where it is certified and made available to receiving entities ("User Agents"). The Evidence enables other entities ("User Agents") to verify whether the Artifact conforms to management policies ("Policy").
 
 The diagram depicts the flow of artifacts between entities in the Supply Chain Integrity Workflow.
 
@@ -172,11 +166,11 @@ The diagram depicts the flow of artifacts between entities in the Supply Chain I
   Figure 4.1 -- Supply Chain Integrity Model Workflow
 </p>
 
-A Supplier creates an Artifact (a) and an Attester creates Evidence about an Artifact. The Supplier and the Attester may be the same entity. The Attester submits Evidence to a Store where it is certified and made available for query and retrieval.
+A Supplier creates an Artifact (a) and an Attester creates Evidence (b) about an Artifact. The Supplier and the Attester may be the same entity. The Attester submits Evidence to a Store where it is certified and made available for query and retrieval.
 
-A Policy Manager creates Policy and submits it to a Policy Store where it is certified and made available for query and retrieval.
+A Policy Manager creates Policy (c) and submits it to a Store where it is certified and made available for query and retrieval.
 
-A User receives an Artifact, and retrieves Evidence and Policy. The User uses Evidence to verify the Artifact against Policy.
+A User Agent (d) receives an Artifact, and retrieves Evidence and Policy. The User Agent uses Evidence to verify the Artifact against Policy.
 
 #### 4.1&nbsp;&nbsp;&nbsp;Reference Use Cases
 
