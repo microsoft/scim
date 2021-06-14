@@ -190,7 +190,7 @@ In the most basic use case for supply chain integrity, the Supplier serves a dua
 - information about defects identified in the Artifact
 - references to related Artifacts or Evidence
 
-A Supplier creates an Artifact (a) and Evidence (b). A Policy Manager provides Policy (c). A User Agent (d) obtains the Artifact and Evidence, and uses Policy to verify the suitability of the Artifact for the intended use.
+A Supplier creates an Artifact (a) and Evidence (b). A Policy Manager provides Policy (c). A User Agent (d) obtains Artifact (a) and Evidence (b), and uses Policy (c) to verify suitability of Artifact (a) for the intended use.
 
 <p align="center">
   <img src="images/spec/Workflow - Self-Attestation.svg" width="500" align="middle"><br/>
@@ -199,12 +199,14 @@ A Supplier creates an Artifact (a) and Evidence (b). A Policy Manager provides P
 
 #### 4.1.2&nbsp;&nbsp;&nbsp;Private/Public Attestation
 
-In this scenario, a supplier uses private evidence and policy to verify artifacts internally prior to release. At release time, the private party releases a summarized version of evidence for public users.
+In this use case, a Supplier creates an Artifact (a), private Evidence (b), and private Policy (c). A Build Verifier (d) uses these to verify Artifact (A) prior to release. At release, the Supplier provides a summarized version of Evidence (e) for public users.
 
 <p align="center">
   <img src="images/spec/Workflow - Private_Public Attestation.svg" width="550" align="middle"><br/>
   Figure 4.1.2.1 -- Private/Public Attestation Workflow
 </p>
+
+On the User side, a Policy Manager creates Policy (f), and a User Agent (g) obtains Artifact (a) and uses Policy (f) to verify suitability of Artifact (a) for the intended use. 
 
 #### 4.1.3&nbsp;&nbsp;&nbsp;Multi-Party Attestation
 
