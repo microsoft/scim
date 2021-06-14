@@ -190,7 +190,7 @@ In the most basic use case for supply chain integrity, the Supplier serves a dua
 - information about defects identified in the Artifact
 - references to related Artifacts or Evidence
 
-A Policy Manager provides Policy. The User obtains the Artifact and Evidence, and uses Policy provided by the Policy Manager to verify the suitability of the Artifact for the intended use.
+A Policy Manager provides Policy. The User Agent obtains the Artifact and Evidence, and uses Policy provided by the Policy Manager to verify the suitability of the Artifact for the intended use.
 
 <p align="center">
   <img src="images/spec/Workflow - Self-Attestation.svg" width="500" align="middle"><br/>
@@ -210,7 +210,7 @@ In this scenario, a supplier uses private evidence and policy to verify artifact
 
 To increase trust in Artifacts, Policy Managers may require independent Evidence from multiple third-party Attesters. For example in a software supply chain, a Policy Manager may require that all code commits be approved by two qualified reviewers, or that software be independently rebuilt by multiple parties with matching build Artifacts.
 
-In the Multi-Party Attestation workflow, the User obtains an Artifact from the Supplier and Evidence (a) and (b) from Attesters.The User verifies the Artifact against Policy, which specifies allowed Attesters, the number of Attesters required, and any additional requirements.
+In the Multi-Party Attestation workflow, the User Agent obtains an Artifact from the Supplier and Evidence (a) and (b) from Attesters.The User Agent verifies the Artifact against Policy, which specifies allowed Attesters, the number of Attesters required, and any additional requirements.
 
 <p align="center">
   <img src="images/spec/Workflow - Multi-Party Attestation.svg" width="650" align="middle"><br/>
@@ -221,7 +221,7 @@ In the Multi-Party Attestation workflow, the User obtains an Artifact from the S
 
 Often a Policy Manager requires that a final component (Artifact) and all sub-components (Artifacts) conform to Policy, for example that a component and all subcomponents are free from critical defects.
 
-In this workflow, Subcomponent Suppliers provide Artifacts (a) and (b) and Evidence (a) and (b) to the Component Supplier, who in turn provides Artifact (c) and Evidence (c) to the User. Evidence (c) includes Evidence (a) and (b) either inline, or by reference. The User verifies Artifact (c) against Policy, which specifies requirements for the component and all nested subcomponents.
+In this workflow, Subcomponent Suppliers provide Artifacts (a) and (b) and Evidence (a) and (b) to the Component Supplier, who in turn provides Artifact (c) and Evidence (c) to the User Agent. Evidence (c) includes Evidence (a) and (b) either inline, or by reference. The User Agent verifies Artifact (c) against Policy, which specifies requirements for the component and all nested subcomponents.
 
 <p align="center">
   <img src="images/spec/Workflow - Subcomponent Verification.svg" width="625" align="middle"><br/>
@@ -230,13 +230,13 @@ In this workflow, Subcomponent Suppliers provide Artifacts (a) and (b) and Evide
 
 #### 4.1.5&nbsp;&nbsp;&nbsp;Continuous Verification
 
-Policy Managers often require corrective action when changes occur in Artifact status, such as when critical security issues are reported, when legal licences are modified, and when Artifacts become obsolete. Additionally, Policy Managers may require corrective action when changes occur in Policy, for example to respond to updated business or regulatory requirements. Thus, Users must continuously monitor and respond to changes in both Evidence and Policy. In some cases, such as the case of critical security issues, the response must be rapid.
+Policy Managers often require corrective action when changes occur in Artifact status, such as when critical security issues are reported, when legal licences are modified, and when Artifacts become obsolete. Additionally, Policy Managers may require corrective action when changes occur in Policy, for example to respond to updated business or regulatory requirements. Thus, User Agents must continuously monitor and respond to changes in both Evidence and Policy. In some cases, such as the case of critical security issues, the response must be rapid.
 
-In this workflow, the User obtains Evidence (a) and Policy (a) and uses these to verify an Artifact.
+In this workflow, the User Agent obtains Evidence (a) and Policy (a) and uses these to verify an Artifact.
 
-Later, when a critical security issue is reported against the Artifact by a Defect Reporting Service, the User receives Evidence (b) and re-verifies the artifact, rapidly performing corrective action.
+Later, when a critical security issue is reported against the Artifact by a Defect Reporting Service, the User Agent receives Evidence (b) and re-verifies the artifact, rapidly performing corrective action.
 
-Later still, business conditions require the Policy Manager to modify policy. At this time, the User receives Policy (b) and re-verifies the Artifact, performing corrective action as needed.
+Later still, business conditions require the Policy Manager to modify policy. At this time, the User Agent receives Policy (b) and re-verifies the Artifact, performing corrective action as needed.
 
 Eventually, when the Supplier determines to discontinue support for the Artifact, it provides new evidence, Evidence (c) indicating the Artifact’s pending obsolescence. The user receives the new evidence, re-verifies the Artifact, and performs corrective action as needed.
 
