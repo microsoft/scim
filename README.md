@@ -46,6 +46,6 @@ The SCIM-Store specification defines a rich, graph-aware storage API that allows
 
 ## Contributing
 
-- Meetings: The SCIM community holds meetings each Monday at 8 AM Pacific. Email kayw@microsoft.com to be added to the meeting invitation.
+- Meetings: The SCIM community holds meetings each Monday at 8:05 AM Pacific. Email kayw@microsoft.com to be added to the meeting invitation.
 - Meeting Agenda and Minutes: https://docs.google.com/document/d/1vf-EliXByhg5HZfgVbTqZhfaJFCmvMdQuZ4tC-Eq6wg/edit?usp=sharing
 - Meeting Videos: https://www.youtube.com/playlist?list=PL6EgWS5xrcg4J3vYdv9SL8MyZMp14DxBv
