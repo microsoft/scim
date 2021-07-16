@@ -8,7 +8,7 @@ Note: SCIM describes principles and a proposed model and system for conveying ev
 
 ## Workflow
 
-The following diagram depicts the flow of artifacts between entities in the Supply Chain Integrity Model. 
+The following diagram depicts the flow of artifacts, evidence and policies between entities in the Supply Chain Integrity Model. 
 
 <p align="center"><img src="images/workflow.svg" width="450" align="middle"></p>
 
