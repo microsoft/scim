@@ -28,7 +28,7 @@ SCIM | Existing
 ---- | --------
 The SCIM-Evidence specification defines an extensible data model and exchange format for providing all types of evidence (bills of materials, build information, configuration settings, security assurances, certifications, vulnerabilities, end of life information) for all types of artifacts (hardware, software, services, machine learning models, etc.). | [SWID](https://nvd.nist.gov/products/swid), [SPDX](https://spdx.dev), [CycloneDX](https://cyclonedx.org), [in-toto](https://in-toto.io), [RATS](https://datatracker.ietf.org/doc/html/draft-ietf-rats-architecture-10), and others
 The SCIM-Policy specification defines a data model and exchange format for providing policy for use in evaluating artifacts for a specified use. | [in-toto](https://in-toto.io), [RATS](https://datatracker.ietf.org/doc/html/draft-ietf-rats-architecture-10), and others
-The SCIM-Store specification defines a rich, graph-aware storage API that allows publishing and subscribing to Evidence and Policy. | [DBOM](https://dbom-project.readthedocs.io/en/latest), [Grafeas](https://grafeas.io), [RATS](https://datatracker.ietf.org/doc/html/draft-ietf-rats-architecture-10), and others
+The SCIM-Store specification defines a rich, graph-aware storage API that allows read, write and query of Evidence and Policy. | [DBOM](https://dbom-project.readthedocs.io/en/latest), [Grafeas](https://grafeas.io), [RATS](https://datatracker.ietf.org/doc/html/draft-ietf-rats-architecture-10), and others
 
 ## Roadmap
 
