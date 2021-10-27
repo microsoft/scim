@@ -59,4 +59,4 @@ Meeting Videos (both community and technical meetings):
 - https://www.youtube.com/playlist?list=PL6EgWS5xrcg4J3vYdv9SL8MyZMp14DxBv
 
 SCIM Vision
-- https://docs.google.com/document/d/1UnpSIVJuw3dha3twRCzzwgeyul9qKNoAhQ1whfzUto0/edit#
+- https://docs.google.com/document/d/1UnpSIVJuw3dha3twRCzzwgeyul9qKNoAhQ1whfzUto0/edit?usp=sharing
