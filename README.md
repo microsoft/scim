@@ -1,3 +1,7 @@
+##  NOTE: The SCIM effort has a new name and location
+- This site is now deprecated.
+- Join us instead at https://github.com/ietf-scitt.
+
 ## Overview
 
 The Supply Chain Integrity Model (SCIM) supports the ongoing verification of artifacts, including hardware and software components, where the authenticity of entities, evidence, policy, and artifacts can be assured and the actions of entities can be guaranteed to be authorized, non-repudiable, immutable, and auditable. The proposed SCIM will be an industry standard specification, easing the path for uniform data flow across globally distributed supply chains.
